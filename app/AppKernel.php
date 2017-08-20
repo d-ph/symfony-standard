@@ -15,6 +15,12 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+
+            /*
+             * Uncomment the following line to start getting the white page of death.
+             */
+//            new \Sentry\SentryBundle\SentryBundle(),
+
             new AppBundle\AppBundle(),
         ];
 
